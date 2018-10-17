@@ -52,9 +52,17 @@ svg {
   flex-wrap: wrap;
   align-items: flex-end;
   padding: 1rem;
+  min-height: 100vh;
   box-sizing: border-box;
   background: linear-gradient(to top right, #2ad, #59bfe6);
 }
+
+@media (min-height: 800px) {
+  .hero {
+    min-height: calc(175vh / 2);
+  }
+}
+
 @media (min-width: 768px) {
   .hero {
     margin: 0 auto;
@@ -63,7 +71,6 @@ svg {
     max-width: 400px;
     max-height: 600px;
     min-height: 400px;
-    min-height: calc(175vh / 2);
     box-shadow: inset -10px 0 #f01133;
   }
 }
