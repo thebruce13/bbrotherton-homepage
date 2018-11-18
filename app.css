@@ -113,6 +113,11 @@ p {
     padding-left: 0;
 }
 
+.contact li {
+    display: block;
+    line-height: 1.5;
+}
+
 @media (min-width: 35rem) {
     .contact li {
         display: inline-block;
