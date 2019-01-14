@@ -69,7 +69,7 @@ p {
     }
 }
 
-@media (min-height: 15rem) {
+@media (min-width: 35rem), (min-height: 75rem) {
     .flip-card {
         max-height: 25rem;
     }
