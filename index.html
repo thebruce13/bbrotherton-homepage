@@ -64,19 +64,11 @@
         </div>
       </div>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script type="text/javascript">
       var card = document.querySelector(".flip-card");
       var flippers = document.querySelectorAll(".card-switcher");
       flippers.forEach(item => {
         item.addEventListener("click", () => card.classList.toggle("active"));
-      });
-
-      WebFont.load({
-        google: {
-          families: ["Ubuntu:400"]
-        }
       });
     </script>
   </body>
