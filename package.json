@@ -1,19 +1,25 @@
 {
-  "name": "bbrotherton",
+  "name": "bbrotherton-homepage",
   "version": "1.0.0",
-  "description": "personal website",
-  "main": "main.js",
-  "dependencies": {},
-  "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-inject": "^4.3.2",
-    "gulp-svgmin": "^2.1.0",
-    "gulp-svgstore": "^7.0.0"
-  },
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bruce Brotherton",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebruce13/bbrotherton-homepage.git"
+  },
+  "author": "Bruce Brotherotn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebruce13/bbrotherton-homepage/issues"
+  },
+  "homepage": "https://github.com/thebruce13/bbrotherton-homepage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
