@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/thebruce13/bbrotherton-homepage#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.27.10"
   },
   "dependencies": {
     "gulp": "^3.9.1"
